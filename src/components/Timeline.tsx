@@ -2,7 +2,7 @@ import React from 'react'
 
 const Timeline = () => {
   return (
-    <div className='w-[360px] min-h-[250px] p-5 bg-gray-900 rounded-2xl 
+    <div className='md:w-[325px] p-5 bg-gray-900 rounded-2xl 
     bg-opacity-40 border-2 border-gray-500 transform transition-transform duration-500 hover:scale-105 hover:shadow-3xl'>
         <h1 className="text-white text-lg mb-3">Timeline</h1>
         <ol className="relative border-s border-gray-200 dark:border-gray-200">                  

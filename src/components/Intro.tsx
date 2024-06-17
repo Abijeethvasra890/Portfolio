@@ -2,7 +2,7 @@ import React from 'react'
 
 const Intro = () => {
   return (
-    <div className='w-[360px] min-h-[250px] p-5 bg-gray-900 rounded-2xl 
+    <div className='md:w-[300px] p-5 bg-gray-900 rounded-2xl 
     bg-opacity-40 border-2 border-gray-500 transform transition-transform duration-500 hover:scale-105 hover:shadow-3xl'>
         <h1 className="text-white text-lg">Currently in Front End Tech</h1>
         <h1 className="text-white italic text-md mt-3">⭐Aspiring to build interactive and user-friendly web applications.</h1>

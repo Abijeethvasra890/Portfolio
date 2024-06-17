@@ -12,7 +12,7 @@ const Glass = () => {
         backgroundImage: 'url(https://images.pexels.com/photos/245240/pexels-photo-245240.jpeg?cs=srgb&dl=pexels-atbo-66986-245240.jpg&fm=jpg)',
     }}>
     
-        <div className='p-5 bg-slate-950 rounded-2xl bg-clip-padding 
+        <div className='max-w-[350px] md:max-w-[1000px] p-5 bg-slate-950 rounded-2xl bg-clip-padding 
             backdrop-filter backdrop-blur-lg bg-opacity-30 border-2 border-gray-500 transform transition-transform duration-500 hover:scale-105 hover:shadow-3xl'>
                 <div className='flex flex-col'>
                     <div className='flex justify-between'>

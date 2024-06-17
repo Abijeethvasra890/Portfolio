@@ -2,7 +2,7 @@ import React from 'react'
 
 const Skills = () => {
   return (
-    <div className='w-[350px] min-h-[250px] p-5 bg-gray-900 rounded-2xl 
+    <div className='md:w-[300px] p-5 bg-gray-900 rounded-2xl 
              bg-opacity-40 border-2 border-gray-500 transform transition-transform duration-500 hover:scale-105 hover:shadow-3xl'>
             <h4 className='text-white mb-5'>Tech Stack</h4>
             <div className='flex justify-around'>

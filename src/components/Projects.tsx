@@ -8,7 +8,7 @@ const Projects = () => {
         { title: 'Pokemon Info', techstack: 'React, API, Chart JS', imglink: 'pokelogo.png', link: 'https://pokemon-app-redux-saga.vercel.app/' },
       ];
   return (
-    <div className="flex flex-col items-center bg-gray-900 rounded-2xl 
+    <div className="md:max-h-[270px] flex flex-col items-center bg-gray-900 rounded-2xl 
     bg-opacity-40 border-2 border-gray-500 transform transition-transform duration-500 hover:scale-105 hover:shadow-3xl">
         <h1 className="text-white text-lg mt-2 mb-[-5px]">Projects</h1>
         <div className='flex flex-col md:flex-row gap-5 p-5'>
