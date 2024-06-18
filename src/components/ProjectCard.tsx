@@ -16,7 +16,7 @@ const ProjectCard = ({title, techstack, imglink, projectLink}: props) => {
       duration-500 hover:scale-105 hover:shadow-3xl"
     >
         <p className='text-white font-semibold'>{title}</p>
-        <p className='text-white italic'>{techstack}</p>
+        <p className='text-white italic text-xs'>{techstack}</p>
         <img src={imglink} className='w-20 h-20 mt-2'/>
     </a>
   )
