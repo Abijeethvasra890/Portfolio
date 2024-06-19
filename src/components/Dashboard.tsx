@@ -3,11 +3,12 @@ import Intro from './Intro'
 import Projects from './Projects'
 import Experience from './Experience'
 import Timeline from './Timeline'
+import Connections from './Connections'
 
 
-const Glass = () => {
+const Dashboard = () => {
   return (
-    <div className='flex justify-center p-10 sm:p-10 bg-cover bg-center min-h-screen'
+    <div className='flex flex-col items-center p-10 sm:p-10 bg-cover bg-center min-h-screen'
     style={{
         backgroundImage: 'url(https://images.pexels.com/photos/245240/pexels-photo-245240.jpeg?cs=srgb&dl=pexels-atbo-66986-245240.jpg&fm=jpg)',
     }}>
@@ -36,8 +37,9 @@ const Glass = () => {
                     </div>
                 </div>
         </div>
+        <Connections />
     </div>
   )
 }
 
-export default Glass
+export default Dashboard
