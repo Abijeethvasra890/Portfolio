@@ -1,0 +1,28 @@
+---
+import ProjectCard from './ProjectCard.tsx';
+---
+
+<div class="md:max-h-[270px] flex flex-col items-center bg-gray-900 rounded-2xl 
+    bg-opacity-40 border-2 border-gray-500 transform transition-transform duration-500 hover:scale-105 hover:shadow-3xl">
+  <h1 class="text-white text-lg mt-2 mb-[-5px]">Projects</h1>
+  <div class="flex flex-col md:flex-row gap-5 p-5">
+    <ProjectCard
+      title="AV Movies"
+      techstack="TypeScript, SQL, TailWind"
+      imglink="movie.jpg"
+      projectLink="https://movie-lemon-one.vercel.app/"
+    />
+    <ProjectCard
+      title="Todo"
+      techstack="React, Firebase, Redux"
+      imglink="todologo.png"
+      projectLink="https://todo-redux-sooty.vercel.app/"
+    />
+    <ProjectCard
+      title="Pokemon Info"
+      techstack="React, API, Chart JS"
+      imglink="pokelogo.png"
+      projectLink="https://pokemon-app-redux-saga.vercel.app/"
+    />
+  </div>
+</div>
